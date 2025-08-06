@@ -1,0 +1,55 @@
+<style>
+*{
+	align-items:center;
+	align-content: center;
+	text-align: center;
+}
+	header{
+		background-color:blue;
+		color: red;
+		padding: 10px 20px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	header nav a{
+		text-decoration: none;
+		padding: 8px 12px;
+		color: red;
+		font-weight: bold;
+		border-radius: 4px;
+	}
+	header nav a:hoover{
+		background-color: blue;
+	}
+	header nav{
+		gap: 2px;
+	}
+	body{
+		background-color: skyblue;
+	}
+	head{
+		background-color: green;
+	}
+	header img{
+		height: 50px;
+	}
+	footer{
+		background-color: green;
+		bottom: 0px;
+		width: 100%;
+		line-height: 50px;
+		align-content: center;
+		text-align: center;
+	}
+	footer a{
+		text-decoration: none;
+		text color: red;
+		text-align: center;
+	}
+	h1{
+		background-color: yellow;
+		height: 55px;
+		text-align: center;
+	}
+</style>
